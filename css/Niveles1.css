@@ -1,0 +1,96 @@
+div{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.nivel1{
+	background: url("../imagenes/BosqueTropical1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.nivel2{
+	background: url("../imagenes/bosquemixto.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.nivel3{
+	background: url("../imagenes/SelvaHumeda1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.nivel4{
+	background: url("../imagenes/tundra3.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.nivel5{
+	background: url("../imagenes/Desierto1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.nivel6{
+	background: url("../imagenes/sabana1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.nivel7{
+	background: url("../imagenes/Mar1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+#Nivel1:hover{
+	transform: scale(1.3);
+}
+*{
+	transition: all 1s;
+}
+
+#Nivel2:hover{
+	transform: scale(1.3);
+}
+*{
+	transition: all 1s;
+}
+
+#Nivel3:hover{
+	transform: scale(1.3);
+}
+*{
+	transition: all 1s;
+}
+
+#regresarmenu:hover{
+	transform: scale(1.3);
+}
+*{
+	transition: all 1s;
+}
+.nivel8{
+	background: url("../imagenes/Granja1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}

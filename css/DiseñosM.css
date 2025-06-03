@@ -1,0 +1,45 @@
+.gpanimales{
+	background: url('../imagenes/Bosque Tropical 1.jpg');
+	background-size: 1300px 900px;
+	    cursor: url("../imagenes/cursorA.png"),auto;
+
+}
+.fondos{
+text-align: center;
+color: white;
+font-family: impact;
+font-size: 40px;
+text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+-webkit-text-fill-color: white;
+-webkit-text-stroke: 2px black;
+}
+.botonesmenu{
+	position: relative;
+	top: -50px;
+	left: 50px;
+	margin: flex;
+    margin-left: 1%; 
+    margin-right: 5%;
+    margin-top:1%;
+}
+.loroM{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+.loroM:hover{
+	transform: scale(1.10);
+}
+*{
+	transition: all 1s;
+}
+.droppable1{
+	position: relative;
+	top: -50px;
+	left: 50px;
+	margin: flex;
+    margin-left: 1%; 
+    margin-right: 5%;
+    margin-top:1%;
+}
+}
