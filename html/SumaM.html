@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/SumaM.css">
+<link rel="stylesheet" type="text/css" href="../css/ajuste.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+<script language="javascript">
+	function Agrandar()
+	{
+		document.getElementById('facil').style.transform = "scale(1.2)";
+		document.getElementById('medio').style.transform = "scale(0.8)";
+		document.getElementById('dificil').style.transform = "scale(0.8)";
+	}
+	function Regresar()
+	{
+		document.getElementById('facil').style.transform = "scale(1)";
+		document.getElementById('medio').style.transform = "scale(1)";
+		document.getElementById('dificil').style.transform = "scale(1)";
+	}
+
+	function Agrandar1()
+	{
+		document.getElementById('facil').style.transform = "scale(0.8)";
+		document.getElementById('medio').style.transform = "scale(1.2)";
+		document.getElementById('dificil').style.transform = "scale(0.8)";
+	}
+	function Regresar1()
+	{
+		document.getElementById('facil').style.transform = "scale(1)";
+		document.getElementById('medio').style.transform = "scale(1)";
+		document.getElementById('dificil').style.transform = "scale(1)";
+	}
+
+	function Agrandar2()
+	{
+		document.getElementById('dificil').style.transform = "scale(1.2)";
+		document.getElementById('medio').style.transform = "scale(0.8)";
+		document.getElementById('facil').style.transform = "scale(0.8)";
+	}
+	function Regresar2()
+	{
+		document.getElementById('dificil').style.transform = "scale(1)";
+		document.getElementById('medio').style.transform = "scale(1)";
+		document.getElementById('facil').style.transform = "scale(1)";
+	}
+</script>
+<body>
+	
+	<a href="../Matematicas.html"><img src="../imagenes/Regresar.png" class="regre" id="regre" width="30" height="30"></a>
+    <center>
+		<img src="../imagenes/TituloDificultad.png"  class="difi">
+		<br><br>
+		
+	<div class="contenedor">
+
+
+		<img src="../imagenes/facil.png" onclick="location.href='Suma.html'" onmouseover="Agrandar();" onmouseout="Regresar();" class="Facil" id="facil">
+	<img src="../imagenes/medio.png" onclick="location.href='Suma2.html'" onmouseover="Agrandar1();" onmouseout="Regresar1();" class="Medio" id="medio">
+	<img src="../imagenes/dificil.png" onclick="location.href='Suma3.html'" onmouseover="Agrandar2();" onmouseout="Regresar2();" class="Dificil" id="dificil">
+</div>
+</center>
+</body>
+</html>

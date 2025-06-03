@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito';
+	transition: all 2s;
+}
+body{
+	text-align: center;
+	color: #be0dbe;
+	background: url("../imagenes/Menu.jpg");
+    cursor: url("../imagenes/cursorA.png"),auto;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.num{
+	position: center;
+	width: 20%;
+	height: 30%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	
+}
+h1{
+	color: white;
+	padding: 10px;
+}
+.re:hover{
+	transform: scale(1.2);
+}
+.container{
+	position: relative;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 5%;
+	border: 2px solid #dff0f0;
+	border-radius: 10px;
+	padding: 20px 0;
+    box-shadow: 0 0 10px #f5d6ed, 0 0 40px #eb93ee, 0 0 80px #f1a2f8;
+
+
+}
+.container::before{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.281);
+    opacity: 0.6;
+}
+.izquierdo{
+	width: 100%;
+	font-size: 40px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.msj{
+	margin-top: 5%;
+	font-size: 40px;
+	height: 50px;
+}
+
+
+.abajo{
+	display: block;
+	flex-direction: row;
+    
+    width: fit-content;
+}
+.opcion{
+        background-color: #e387ec;
+        color: #daedf0;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px 30px;
+        border: 4px solid #e75ae0;
+        border-radius: 90px;
+		margin-left: 25px;
+		margin-right: 10px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    /* Efecto de marco animado */
+    .opcion::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 4px solid #ec62b7;
+        border-radius: 15px;
+        transition: all 0.4s ease;
+        transform: scale(0);
+    }
+    
+    .opcion:hover::before {
+        transform: scale(1.5);
+    }
+    
+    /* Efecto de hover sobre el botón */
+    .opcion:hover {
+        background-color: #e79043;
+        transform: scale(1.1);
+    }
+    
+    /* Efecto de animación para el texto */
+    .opcion:active {
+        transform: scale(0.95);
+    }
+
+
+
+
+
+#op1:hover{
+	transform: scale(1.2);
+}
+#op2:hover{
+	transform: scale(1.2);
+}
+#op3:hover{
+	transform: scale(1.2);
+}
+.opcion:hover{
+	background-color: #e455a4;
+}
+
+
+@media only screen and (max-width: 900px) {
+.opcion{
+  width: 30px;
+  height: 30px;
+ margin-top: 20px;
+  display: flex;
+
+}
+.re{
+    width: 50px;
+    height: 50px;
+}
+
+}

@@ -1,0 +1,96 @@
+.Transportes{
+   background: url("../imagenes/Transportes.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+#titulo1{
+   position: center;
+	width: 20%;
+	height: 30%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+#titulo1:hover{
+	transform: scale(1.10);
+   cursor: url("../imagenes/cursorA.png"), auto;
+}
+*{
+	transition: all 1s;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.nivel1{
+   position: center;
+   width: 100%;
+   height: auto;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+   background: url("../imagenes/Transportes.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.nivel2{
+   background: url("../imagenes/MARITIMOS.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.Fondoterrestres{
+	background: url("../imagenes/Transportes.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.Fondomaritimos{
+	background: url("../imagenes/MARITIMOS.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.botonesmenu{
+   position: relative;
+	margin-right: 15%;
+	margin-top: 2%;
+	margin-left: 15%;
+   align-content: right;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.botonesmenu:hover{
+	transform: scale(1.10);
+   cursor: url("../imagenes/cursorA.png"), auto;
+}
+*{
+	transition: all 1s;
+}
+.Fondoaereo{
+   background: url("../imagenes/cielo.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.Fondoespacial{
+    background: url("../imagenes/Menu.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center ;
+   cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+

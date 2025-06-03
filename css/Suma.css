@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito';
+	transition: all 2s;
+    cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+body{
+    width: 100%;
+    height: auto;
+	text-align: center;
+	color: #076986;
+	background: url("../imagenes/Menu.jpg");
+    cursor: url("../imagenes/cursorA.png"),auto;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    
+}
+
+.num{
+	position: center;
+	width: 20%;
+	height: 30%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	
+}
+h1{
+	color: white;
+	padding: 35px;
+} 
+.re{
+    position:relative;
+    align-content: right;
+	margin-right: 5%;
+}
+.re:hover{
+	transform: scale(1.2);
+    
+}
+
+
+.container{
+	position: relative;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 5%;
+	border: 2px solid #dff0f0;
+	border-radius: 10px;
+	padding: 20px 0;
+    box-shadow: 0 0 10px #ebe7b6, 0 0 40px #69a2e2, 0 0 80px #34abfa;
+
+}
+.container::before{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.281);
+    opacity: 0.6;
+}
+.izquierdo{
+	width: 100%;
+	font-size: 40px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.msj{
+    cursor: url("../imagenes/cursorA.png"), auto;
+	margin-top: 5%;
+	font-size: 40px;
+	height: 50px;
+}
+
+
+.abajo{
+	display: block;
+	flex-direction: row;
+    
+    width: fit-content;
+}
+.opcion{
+    width: 100%;
+	height: auto;
+        background-color: #5bbde4;
+        color: #daedf0;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px 30px;
+        border: 4px solid #a9ebf7;
+        border-radius: 90px;
+        margin-left: 20px;
+		margin-right: 20px;
+        cursor: url("../imagenes/cursorA.png"), auto;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    /* Efecto de marco animado */
+    .opcion::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 4px solid #7fbeee;
+        border-radius: 90px;
+        margin-left: 15px;
+		margin-right: 20px;
+        transition: all 0.4s ease;
+        transform: scale(0);
+    }
+    
+    .opcion:hover::before {
+        transform: scale(1.5);
+    }
+    
+    /* Efecto de hover sobre el botón */
+    .opcion:hover {
+        background-color: #e79043;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #a7deeb, 0 0 40px #86c0f0, 0 0 80px #3cc6fd;
+    }
+    
+    /* Efecto de animación para el texto */
+    .opcion:active {
+        transform: scale(0.95);
+    }
+
+
+
+
+
+#op1:hover{
+	transform: scale(1.2);
+}
+#op2:hover{
+	transform: scale(1.2);
+}
+#op3:hover{
+	transform: scale(1.2);
+}
+.opcion:hover{
+	background-color: #8dddf1;
+    color: #171c1c;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+.re {
+ 
+	width: 50px;
+  height: 50px;
+}
+
+.opcion{
+  width: 30px;
+  height:30px;
+  padding: 20px;
+  display: flex;
+}
+
+
+}
+
+

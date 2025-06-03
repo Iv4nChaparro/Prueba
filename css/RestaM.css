@@ -1,0 +1,65 @@
+body{
+	background: url("../imagenes/Menu.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+*{
+	transition: all 0.5s
+}
+
+.contenedor{
+	width: 100%;
+	height:auto;
+}
+div{
+	
+	position: relative; /* Cambiado a 'relative' para permitir el desplazamiento */
+	width: 100%;
+	height: auto; /* Permitir que el contenido determine la altura */
+
+}
+.regre{
+	position: absolute;
+	width: auto;
+	height: 40px;
+	margin-right:3%;
+	margin-bottom: 10%;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#regre:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.difi{
+	position: relative; /* Cambiado a 'relative' para permitir el desplazamiento */
+	height: auto;
+	margin-right: 35%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-left: 10%;
+}
+.Facil{
+	width: 18%;
+	height: auto;
+	margin-right: 3%;
+}
+.Medio{
+	width: 18%;
+	height: auto;
+}
+.Dificil{
+	width: 18%;
+	height: auto;
+	margin-left: 3%;
+}
+#facil:hover{
+	cursor: pointer;
+}
+#medio:hover{
+	cursor: pointer;
+}
+#dificil:hover{
+	cursor: pointer;
+}

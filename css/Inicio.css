@@ -1,0 +1,91 @@
+* {
+  transition: all 0.5s;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow: auto; /* Permite el desplazamiento */
+  background: url("../imagenes/Menu.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  cursor: url("../imagenes/cursorA.png"), auto;
+  margin: 0; /* Asegúrate de que no haya margen que oculte la barra */
+}
+
+div {
+  position: relative; /* Cambiado a 'relative' para permitir el desplazamiento */
+  width: 100%;
+  height: auto; /* Permitir que el contenido determine la altura */
+}
+
+.operacion {
+  margin: flex;
+  margin-left: 2.5%; 
+  margin-right: 5%;
+  margin-top: 3%;
+  width: 15%;
+  height: 15%;
+  border-radius: 100px;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-name: ani;
+}
+
+@keyframes ani {
+  0% {
+      transform: scale(1, 1);
+  }
+  30% {
+      transform: scale(0.92, 0.95);
+  }
+  50% {
+      transform: scale(1, 1);
+  }
+  80% {
+      transform: scale(0.92, 0.95);
+  }
+  100% {
+      transform: scale(1, 1);
+  }
+}
+
+.regresar:hover {
+  transform: scale(1.10);
+}
+
+.regresar {
+ 
+  position: absolute;
+	height: auto;
+	margin-right: 8%;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+* {
+  transition: all 1s;
+}
+
+@media only screen and (max-width: 900px) {
+
+.operacion{
+  width: 190px;
+  height:190px;
+  padding: 30px;
+  display: flex;
+}
+.regresar{
+  width: 50px;
+  height: 50px;
+}
+
+
+    .cartas{
+         width: 300px;
+  height: 150px;
+    }
+
+}
+

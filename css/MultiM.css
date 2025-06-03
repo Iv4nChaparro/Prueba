@@ -1,0 +1,105 @@
+body{
+	width: 100%;
+	height: auto;
+	overflow: 100%; /* Permite el desplazamiento */
+	background: url("../imagenes/Menu.jpg");
+    cursor: url("../imagenes/cursorA.png"),auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0; /* Asegúrate de que no haya margen que oculte la barra */
+}
+*{
+	transition: all 0.5s;
+	cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.contenedor{
+	
+	width: 100%;
+	height: auto;
+}
+div{
+	
+	position: relative; /* Cambiado a 'relative' para permitir el desplazamiento */
+	width: 100%;
+	height: auto; /* Permitir que el contenido determine la altura */
+
+}
+.regre{
+	position: absolute;
+	width: auto;
+	height: 40px;
+	margin-right:3%;
+	margin-bottom: 10%;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#regre:hover{
+	transform: scale(1.2);
+}
+.difi{
+	position: relative; /* Cambiado a 'relative' para permitir el desplazamiento */
+	height: auto;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-left: 25%;
+}
+.Facil{
+	width: 15%;
+	height: auto;
+	margin-right: 10%;
+	cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.Medio{
+	width: 15%;
+	height: auto;
+	cursor: url("../imagenes/cursorA.png"), auto;
+
+}
+.Dificil{
+	width: 15%;
+	height: auto;
+	margin-left: 10%;
+	cursor: url("../imagenes/cursorA.png"), auto;
+}
+
+@media only screen and (max-width: 600px) {
+  
+.regre {
+ 
+	width: 50px;
+  height: 50px;
+}
+
+
+.Dificil{
+	display: block;
+	margin-left:0%;
+	padding-top: 30px;
+	width: 30%;
+
+
+}
+
+.Medio{
+	display: block;
+	margin-right: 0%;
+	padding-top: 20px;
+	width: 30%;
+}
+
+.Facil{
+	display: block;
+	margin-left: 10%;
+	padding-top: 10px;
+	width: 30%;
+	
+}
+.difi{
+	width: 50%;
+	height: 100%;
+}
+}

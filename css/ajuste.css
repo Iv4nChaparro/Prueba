@@ -1,0 +1,46 @@
+@media screen and (max-width: 1366px){
+    #contenedor{
+        height: auto;
+        width: 100%;
+    }
+    #contenido{
+        height: auto;
+        width: 100%;
+    }
+    #barra_lateral{
+        height: auto;
+        width:100%;
+        visibility: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    .regresar{
+        width: 330px;
+        height: 300px;
+    }
+
+    
+
+    .logo2{
+        width: 200px;
+        height: 220px;
+    }
+
+    .niveles{
+        width: 220px;
+        height: 140px;
+    }
+
+    .cartas2{
+        width: 120px;
+        height: 150px;
+    }
+
+    .cartas3{
+        width: 90px;
+        height: 130px;
+    }
+}

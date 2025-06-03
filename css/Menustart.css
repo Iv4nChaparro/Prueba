@@ -1,0 +1,23 @@
+*{
+	transition: all 0.4s;
+}
+body{
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.inicio{
+	 animation-name: intensidad;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+@keyframes intensidad{
+	0%{box-shadow: 0px 0px 50px #FF8300;}
+	50%{box-shadow: 0px 0px 0px #FF8300;}
+	100%{box-shadow: 0px 0px 50px #FF8300;}
+}
+#inicio:hover{
+   transform: scale(1.10);
+   cursor: url("../imagenes/cursorA.png"), auto;
+}
